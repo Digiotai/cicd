@@ -19,7 +19,7 @@ jobs:
         node-version: '14'  # Specify the Node.js version you need
 
     - name: Install Dependencies
-      run: npm install  # Use yarn install if you prefer Yarn
+      run: npm install --legacy-peer-deps # Use yarn install if you prefer Yarn
 
     - name: Build Application
       run: npm run build  # Adjust this command for your build process
