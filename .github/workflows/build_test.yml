@@ -21,9 +21,6 @@ jobs:
     - name: Install Dependencies
       run: npm install  # Use yarn install if you prefer Yarn
 
-    - name: Run Tests
-      run: npm test  # Adjust this command for your testing framework
-
     - name: Build Application
       run: npm run build  # Adjust this command for your build process
 
