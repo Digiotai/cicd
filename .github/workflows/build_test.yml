@@ -23,7 +23,7 @@ jobs:
 
     - name: Build Application
       run: npm run build  # Adjust this command for your build process
-      env
+      env:
         CI: false
 
   deploy:
