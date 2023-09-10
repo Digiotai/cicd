@@ -43,9 +43,9 @@ jobs:
       with:
         aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        application_name: keypulse_generative
-        environment_name: Keypulsegenerative-env
-        version_label: 123677
+        application_name: cicd
+        environment_name: Cicd-env
+        version_label: 123674
         region: "us-east-2"
         deployment_package: deploy.zip
         use_existing_version_if_available: true
